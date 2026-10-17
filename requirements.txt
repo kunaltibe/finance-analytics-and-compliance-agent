@@ -1,0 +1,38 @@
+# ==========================================
+# FINANCIAL ANALYTICS & COMPLIANCE AGENT
+# Requirements for autonomous AI agent
+# ==========================================
+
+# --- Core LangChain Ecosystem ---
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-ollama>=0.2.0
+langchain-community>=0.3.0
+langchain-chroma>=0.2.0
+langchain-text-splitters>=0.3.0
+
+# --- Vector Database ---
+chromadb>=0.5.0
+
+# --- Data Processing ---
+pandas>=2.0.0
+pypdf>=4.0.0
+tabulate>=0.9.0
+
+# --- Environment Management ---
+python-dotenv>=1.0.0
+
+# --- Data Validation & Serialization ---
+pydantic>=2.0.0
+
+# --- SQL Operations ---
+sqlalchemy>=2.0.0
+
+# --- Optional: For Advanced Features ---
+# Uncomment if you implement these upgrades:
+# pdfplumber>=0.10.0          # Better table extraction
+# pymupdf4llm>=0.0.1          # Multimodal PDF parsing
+# pytesseract>=0.3.10         # OCR for scanned documents
+# pdf2image>=1.16.0           # PDF to image conversion
+# unstructured>=0.10.0        # Advanced document parsing
